@@ -21,12 +21,12 @@ Výzkumné otázky</b>
 
 Ze vstupních dat byla nejprve vytvořena primární tabulka t_Anna_Rollerova_project_SQL_1, ze které bylo možné poté vycházet při formulování skriptů, které mi pomohly zodpovědět výzkumné otázky. Primární tabulka byla vytvořena spojením tří pomocných tabulek, ve kterých jsem extrahovala pouze potřebná data ze vstupních tabulek:
 
-- [ ]  primary_table_payroll, která obsahuje údaje o mzdách v různých odvětvích v průběhu let
+- [ ] primary_table_payroll, která obsahuje údaje o mzdách v různých odvětvích v průběhu let
 - [ ] primary_table_price, kde je uveden vývoj cen základních potravin v průběhu let
 - [ ] primary_table_gdp_cz, která shrnuje hodnotu HDP České republiky v průběhu let
 
 <b>1. Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají? </b>
-Pouhým porovnáním hodnot mezd v období 2006 - 2018 můžeme zjistit, že ve všech zkoumaných odvětvích mzdy vzrostly. Mým cílem bylo ale zjistit, zda v některých odvětvích došlo v průběhu let i k poklesu hrubé mzdy. Proto jsem ve skriptu č.1 nechala vypsat v procentech meziroční změnu mzdy oproti předchozímu roku, a klauzulí WHERE jsem omezila výsledek na hodnoty menší než 0 - tedy kde došlo k poklesu mezd. Z výsledků vyplývá, že k meziročnímu poklesu došlo u nejvíce oborů v roce 2013, ale jednalo se vždy pouze o pokles v řádu jednotek procent. Největší pokles nastal v roce 2013 v odvětví Peněžnictví a pojišťovnictví, kdy došlo k poklesu o 8,9 %.
+<br>Pouhým porovnáním hodnot mezd v období 2006 - 2018 můžeme zjistit, že ve všech zkoumaných odvětvích mzdy vzrostly. Mým cílem bylo ale zjistit, zda v některých odvětvích došlo v průběhu let i k poklesu hrubé mzdy. Proto jsem ve skriptu č.1 nechala vypsat v procentech meziroční změnu mzdy oproti předchozímu roku, a klauzulí WHERE jsem omezila výsledek na hodnoty menší než 0 - tedy kde došlo k poklesu mezd. Z výsledků vyplývá, že k meziročnímu poklesu došlo u nejvíce oborů v roce 2013, ale jednalo se vždy pouze o pokles v řádu jednotek procent. Největší pokles nastal v roce 2013 v odvětví Peněžnictví a pojišťovnictví, kdy došlo k poklesu o 8,9 %.
 
 
 <img width="768" alt="Snímek obrazovky 2024-01-03 v 15 18 56" src="https://github.com/rollerovaanna/SQL-final-project/assets/140256120/f5476c3a-dc0b-4db8-8f88-4a37aba81ead">
