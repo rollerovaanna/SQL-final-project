@@ -1,4 +1,4 @@
-<b>Tyto datové podklady porovnání byly vypracovány na základě volně dostupných dat pocházejících z Portálu otevřených dat ČR  za účelem zodpovězení výzkumných otázek uvedených níže. Zabývají se cenami základních potravin, průměrnými mzdami v různých odvětvích a HDP v letech 2006 - 2018. Všechny obsažené SQL skripty byly vytvořeny v relační databázi MariaDB pomocí programu DBeaver. Projekt vznikl jako samostatná práce v rámci absolvování Datové akademie Engeto.
+<b>Tyto datové podklady porovnání byly vypracovány na základě volně dostupných dat pocházejících z <a href="https://data.gov.cz/">Portálu otevřených dat ČR</a>  za účelem zodpovězení výzkumných otázek uvedených níže. Zabývají se cenami základních potravin, průměrnými mzdami v různých odvětvích a HDP v letech 2006 - 2018. Všechny obsažené SQL skripty byly vytvořeny v relační databázi MariaDB pomocí programu DBeaver. Projekt vznikl jako samostatná práce v rámci absolvování Datové akademie Engeto.
  
 Výzkumné otázky</b>
 - [ ] Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?
