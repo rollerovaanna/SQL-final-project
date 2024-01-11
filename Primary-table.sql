@@ -25,8 +25,8 @@ GROUP BY cprc.name, YEAR(cpr.date_from);
 --vytvoření pomocné tabulky pro HDP ČR
 CREATE OR REPLACE TABLE primary_table_gdp_cz AS 
 SELECT 
-		economies.gdp,
-		economies.year AS gdp_year
+	economies.gdp,
+	economies.year AS gdp_year
 FROM economies
 WHERE country = 'Czech Republic';
 
