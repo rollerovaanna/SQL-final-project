@@ -1,3 +1,4 @@
+--vytvoření pomocné tabulky pro mzdy
 CREATE OR REPLACE TABLE primary_table_payroll AS
 SELECT 
 	cp.payroll_year AS year,	
@@ -9,6 +10,7 @@ JOIN czechia_payroll_industry_branch AS cpib
 	AND cp.value_type_code = 5958 
 GROUP BY cpib.name, cp.payroll_year;
 
+--vytvoření pomocné tabulky pro ceny potravin
 CREATE OR REPLACE TABLE primary_table_price AS
 SELECT 
 	YEAR(cpr.date_from) AS price_year,
@@ -20,6 +22,7 @@ JOIN czechia_price_category AS cprc
 	ON cpr.category_code = cprc.code 
 GROUP BY cprc.name, YEAR(cpr.date_from);
 
+--vytvoření pomocné tabulky pro HDP ČR
 CREATE OR REPLACE TABLE primary_table_gdp_cz AS 
 SELECT 
 		economies.gdp,
@@ -27,6 +30,7 @@ SELECT
 FROM economies
 WHERE country = 'Czech Republic';
 
+--spojení tří pomocných tabulek do jedné a vytvoření primární tabulky
 CREATE OR REPLACE TABLE t_Anna_Rollerova_project_SQL_1 AS
 SELECT *
 FROM primary_table_payroll AS payroll
