@@ -1,5 +1,5 @@
 --3. Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?
--- pomocí vzorce vypočteme meziroční změnu ceny, a následně tuto změnu zprůměrujeme za celé sledované období a seřadíme od nejnižší hodnoty
+--pomocí vzorce vypočteme meziroční změnu ceny, a následně tuto změnu zprůměrujeme za celé sledované období a seřadíme od nejnižší hodnoty
 
 SELECT
 	f.price_category,
