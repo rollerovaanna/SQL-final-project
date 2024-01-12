@@ -1,5 +1,6 @@
-
-
+--4. Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?
+-- Vypočeteme průměrný růst mezd a průměrný růst cen a následně vypočteme rozdíl mezi těmito hodnotami, čímž pro každý rok získáme
+meziroční změnu. V žádném roce ale nebyl rozdíl mezi cenami a platy větší než 10 %.
 
 SELECT DISTINCT 
 	y.year,
