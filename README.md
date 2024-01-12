@@ -67,7 +67,7 @@ V tomto dotazu jsem pro každý rok nejprve vypočetla průměrný růst mezd a 
 
 <b>5.  Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo následujícím roce výraznějším růstem?</b>
 
-Pro tento skript jsem v dotazu vypočetla průměrný růst mezd, cen potravin a vývoj HDP v ČR. Ze získaných dat ovšem nelze jednoznačně prokázat vliv HDP na nárůst mezd a cen v dalším roce. Například v po prudším nárůstu HDP v roce 2007 následoval i vyšší nárůst cen i mezd v následujícím roce. Při propadu HDP v roce 2009 pak další rok mzdy i ceny poměrně stagnovaly. V roce 2017 ale došlo k extrémnímu růstu jen o 9,6 %, přitom HDP ani mzdy výraznější změnu neprodělaly. Na určování cen potravin a výši mezd se ovšem kromě HDP podílí i mnoho jiných faktorů.
+Pro tento skript jsem v dotazu vypočetla pro každý rok meziroční změnu mezd, cen potravin a HDP. Ze získaných dat ovšem nelze jednoznačně prokázat vliv HDP na nárůst mezd a cen v dalším roce. Například v po prudším nárůstu HDP v roce 2007 následoval i vyšší nárůst cen i mezd v následujícím roce. Při propadu HDP v roce 2009 pak další rok mzdy i ceny poměrně stagnovaly. V roce 2017 ale došlo k extrémnímu růstu jen o 9,6 %, přitom HDP ani mzdy výraznější změnu neprodělaly. Na určování cen potravin a výši mezd se ovšem kromě HDP podílí i mnoho jiných faktorů.
 
 <img width="594" alt="Snímek obrazovky 2024-01-04 v 13 13 34" src="https://github.com/rollerovaanna/SQL-final-project/assets/140256120/0b06b4e2-d4f6-4c76-b87d-8f61740c02f2">
 
