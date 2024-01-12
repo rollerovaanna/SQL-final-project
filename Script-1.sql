@@ -1,5 +1,6 @@
 --1. Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají? 
 --pomocí vzorce vypočteme procentuální mneziroční změnu mezd a klauzulí WHERE omezíme výsledek na hodnoty menší než 0
+
 SELECT
 	p.year, 
 	p.industry_branch,
