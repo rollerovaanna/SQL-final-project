@@ -1,5 +1,6 @@
 --2. Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
---pro každý výrobek i rok vytvoříme vlastní script, kde vydělením průměrné mzdy průměrnou cenou dané potraviny v daném roce získáme množství, které lze zakoupit
+--pro každý výrobek i rok vytvoříme vlastní script, kde vydělením průměrné mzdy průměrnou cenou dané potraviny v daném roce získáme množství,
+které lze zakoupit
 
 SELECT
 	price_category,
